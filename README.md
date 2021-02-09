@@ -17,7 +17,5 @@ Raw Data, processed results and Python scripts for data analysis of Sherlock Shi
 - The Python script of data analysis are written using *Anaconda Jupyter Notebook*, thus the file extension is .ipynb (representing a iPython interactive terminal file). 
   
    - The script for **merging three cognitve tasks and VGQ** with corresponding subject ID is **'Result_merge.ipynb' and 'Result_merge(V2).ipynb’**.
-   
    - The script for **cleaning the merged results** (remove outliers, etc.) is **'Results_clean.ipynb'**
-   
    - The script for **calcualting inferential and descriptive statistics** of the cleaned results is **'Results_Statistic.ipynb'**

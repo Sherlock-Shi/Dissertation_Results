@@ -1,0 +1,12 @@
+2 2 1 357 757 testrun
+3 3 1 473 751 testrun
+2 2 1 385 580 experimental
+3 3 1 432 711 experimental
+4 4 1 373 669 experimental
+5 5 1 142 481 experimental
+6 6 1 418 806 experimental
+6 7 0 313 647 experimental
+7 7 1 218 570 experimental
+8 8 1 452 473 experimental
+8 9 0 64 532 experimental
+8 9 0 102 784 experimental

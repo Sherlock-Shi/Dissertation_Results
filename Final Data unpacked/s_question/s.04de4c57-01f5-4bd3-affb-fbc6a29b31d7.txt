@@ -1,0 +1,23 @@
+version: 3.1.1
+server-time: 2020-11-02-02-43
+ip: 114.251.165.242
+country: CN, China
+hostname: 
+user_agent: mozilla/5.0 (macintosh; intel mac os x 10.13; rv:82.0) gecko/20100101 firefox/82.0
+screen_width: 1280
+screen_height: 800
+html_width: 1280
+html_height: 2735
+user_time: Mon, 02 Nov 2020 01:43:46 GMT
+T: 308864
+l: AID_instruction
+stime: 2020-11-02-03-04
+T: 1255077
+t: textline
+a: ZRY0326
+l: age_gender
+stime: 2020-11-02-03-05
+T: 9702
+t: textline
+a: 20
+a: female

@@ -1,0 +1,13 @@
+version: 3.1.1
+server-time: 2020-12-21-08-38
+cgi: survey_code 7513
+ip: 202.47.48.50
+country: AU, Australia
+hostname: 
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.88 safari/537.36
+screen_width: 1536
+screen_height: 864
+html_width: 1506
+html_height: 2722
+user_time: Mon, 21 Dec 2020 07:38:21 GMT
+T: 597106

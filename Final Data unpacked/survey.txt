@@ -1,0 +1,100 @@
+l: AID_instruction
+t: textline
+o: require
+q: <p><strong>Please create your anonymous code using this guideline:</strong></p>
+Last name initial + Middle/Last name initial + date of birth
+For example, if your name is <b>Apple Pie Johnason</b>, and your birthday is <b>2020/09/20</b>. Your anonymous ID would be <b>JP0920</b>.
+- Please indicate your anonymous code here:
+
+l: age_gender
+t: textline
+o: require
+q: <strong>Please enter your age and gender</strong>
+- {min=18,max=25} Age:
+- Gender:
+
+scale: VFT
+- Never
+- Less than 1 hour
+- Between 1 and 3 hours
+- Between 3 and 5 hours
+- Between 5 and 10 hours
+- More than 10 hours
+
+l: notification
+t: info
+q: In the next section, you will be asked to complete <b>two</b> questionnaires regarding your video game playtime both <b><font color="red">BEFORE THE PAST 12 MONTHS</font></b> and <b><font color="blue">DURING THE PAST 12 MONTHS</font></b>
+<p>Please note whether the questionnaire you are filling are asking about playtime BEFORE or DURING THE 12 PAST MONTH, before completing the questionnaire.</p>
+<p>Video game in this case includes both <b>PC Version and Mobile Version </b>
+</p><p>Thank you!</p>
+
+
+l: VGPQ_before
+t: scale VFT
+o: require
+q: <b>FOLLOWING QUESTION IS ABOUT YOUR GAMING ACTIVITIES ANYTIME <font color="red">BEFORE THE PAST 12 MONTHS</font></b> (i.e. more than a year ago). 
+<p>For each type of game, <b>select the number of hours played per week when you played the most</b>.</p>
+<p>You will be given the choice between 6 different answers; 
+Please choose one and only one:<b><i> never ; less than 1 hour ; between 1 and 3 hours ; between 3 and 5 hours ; between 5 and 10 hours ; more than 10 hours </i></b></p>
+<p>If your answer is at the cut-off, please select the lower option <b>(e.g. if 3 hours per week, select 1 to 3)</b></p>
+<p>If you are playing Fortnite and/or Minecraft, please note the category of as shown: 
+Fortnite: Save the World or Battle Royale = First/Third Person Shooters 
+Fortnite Creative = Puzzle 
+Minecraft Survival = Adventure 
+Minecraft Creative/Peaceful Survival Mode = Puzzle </p>
+- <p><strong>First-Person Shooter/Third-Person Shooter</strong></p><p><small>e.g. Call Of Duty, Battle Royale Games, Half-Life, Overwatch, PlayerUnknown's Battlegrounds (PC &amp; Mobile)</small></p>
+- <p><strong>Action-Role-Playing/Adventure</strong></p><p><small>e.g. The Witcher, Mass Effect, Fallout 4, Skyrim, Monster Hunter, Assassin’s Creed, Tomb Raider, The Last of Us, Minecraft Survival</small></p>
+- <p><strong>Real-Time Strategy/MOBA</strong></p><p><small>e.g. Starcraft, Warcraft I, II &amp; III, DotA, League of Legends, 王者荣耀</small></p>
+- <p><strong>MMORPG/Turn-Based Strategy/Turn-Based Action Role-Playing</strong></p><p><small>e.g. World of Warcraft, Pokemon, Final Fantasy (Not Remastered), Civilization </small></p>
+- <p><strong>2D Turn-Based Strategy/Card Game</strong></p><p><small>e.g. Hearthstone, GWENT: The Witcher Card Game, Uno (Digital/PC version)</small></p>
+- <p><strong>3D Puzzle Game</strong></p><p><small>e.g. MineCraft Creative, Fortnite Creative</small></p>
+- <p><strong>Sports/Driving</strong></p><p><small>e.g. FIFA, Mario Kart, Need for Speed, Crazyracing Kartrider (跑跑卡丁车)(PC; Mobile)</small></p>
+- <p><strong>Music Game</strong></p><p><small>e.g. DEEMO (PC &amp; Mobile), Cytus 1&amp;2, Guitar Hero</small></p>
+- <p><strong>Others</strong></p><p><small>e.g. Brower game/Fighting game</small></p>
+
+l: VGPQ_during
+t: scale VFT
+o: require
+q: <b>FOLLOWING QUESTION IS ABOUT YOUR GAMING ACTIVITIES ANYTIME <font color="blue">DURING THE PAST 12 MONTHS</font></b>.
+<p>For each type of game, <b>select the number of hours played per week when you played the most</b>.</p>
+<p>You will be given the choice between 6 different answers; 
+Please choose one and only one:<b><i> never ; less than 1 hour ; between 1 and 3 hours ; between 3 and 5 hours ; between 5 and 10 hours ; more than 10 hours </i></b></p>
+<p>If your answer is at the cut-off, please select the lower option <b>(e.g. if 3 hours per week, select 1 to 3)</b></p>
+<p>If you are playing Fortnite and/or Minecraft, please note the category of as shown: 
+Fortnite: Save the World or Battle Royale = First/Third Person Shooters 
+Fortnite Creative = Puzzle 
+Minecraft Survival = Adventure 
+Minecraft Creative/Peaceful Survival Mode = Puzzle </p>
+- <p><strong>First-Person Shooter/Third-Person Shooter</strong></p><p><small>e.g. Call Of Duty, Battle Royale Games, Half-Life, Overwatch, PlayerUnknown's Battlegrounds (PC &amp; Mobile)</small></p>
+- <p><strong>Action-Role-Playing/Adventure</strong></p><p><small>e.g. The Witcher, Mass Effect, Fallout 4, Skyrim, Monster Hunter, Assassin’s Creed, Tomb Raider, The Last of Us, Minecraft Survival</small></p>
+- <p><strong>Real-Time Strategy/MOBA</strong></p><p><small>e.g. Starcraft, Warcraft I, II &amp; III, DotA, League of Legends, 王者荣耀</small></p>
+- <p><strong>MMORPG/Turn-Based Strategy/Turn-Based Action Role-Playing</strong></p><p><small>e.g. World of Warcraft, Pokemon, Final Fantasy (Not Remastered), Civilization </small></p>
+- <p><strong>2D Turn-Based Strategy/Card Game</strong></p><p><small>e.g. Hearthstone, GWENT: The Witcher Card Game, Uno (Digital/PC version)</small></p>
+- <p><strong>3D Puzzle Game</strong></p><p><small>e.g. Minecraft Creative, Fortnite Creative</small></p>
+- <p><strong>Sports/Driving</strong></p><p><small>e.g. FIFA, Mario Kart, Need for Speed, Crazyracing Kartrider (跑跑卡丁车)(PC &amp; Mobile)</small></p>
+- <p><strong>Music Game</strong></p><p><small>e.g. DEEMO (PC &amp; Mobile), Cytus 1&amp;2, Guitar Hero</small></p>
+- <p><strong>Others</strong></p><p><small>e.g. Brower game/Fighting game</small></p>
+
+l: info_of_task
+t: info
+q: You are half way through this survey!
+<p>In the next few pages, you will be asked to complete <b>3 cognitive tasks.</b></p>
+<p>This will require you to have a functional <b>keyboard</b>, <b>mouse</b> and <b>speaker or earphone</b>.</p>
+Please click "Continue" to continue to the tasks.
+
+
+l: stroop
+t: experiment
+ - Stroop
+
+l: IGT
+t: experiment
+ - igt_test
+
+l: corsi
+t: experiment
+ - corsi_block
+
+
+
+

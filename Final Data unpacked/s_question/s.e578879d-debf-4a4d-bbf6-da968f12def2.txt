@@ -1,0 +1,50 @@
+version: 3.1.1
+server-time: 2020-12-17-21-33
+cgi: survey_code 6346
+ip: 82.35.194.41
+country: GB, United Kingdom
+hostname: 
+user_agent: mozilla/5.0 (macintosh; intel mac os x 10_15_7) applewebkit/537.36 (khtml, like gecko) chrome/87.0.4280.88 safari/537.36
+screen_width: 1440
+screen_height: 900
+html_width: 1440
+html_height: 2692
+user_time: Thu, 17 Dec 2020 20:33:26 GMT
+T: 157317
+l: AID_instruction
+stime: 2020-12-17-21-34
+T: 61363
+t: textline
+a: BA0327
+l: age_gender
+stime: 2020-12-17-21-34
+T: 8576
+t: textline
+a: 18
+a: female 
+l: notification
+stime: 2020-12-17-21-34
+T: 19871
+t: info
+l: VGPQ_before
+stime: 2020-12-17-21-37
+T: 149377
+t: scale
+a: 4
+s: 4
+a: 1
+s: 1
+a: 1
+s: 1
+a: 1
+s: 1
+a: 2
+s: 2
+a: 1
+s: 1
+a: 1
+s: 1
+a: 1
+s: 1
+a: 2
+s: 2

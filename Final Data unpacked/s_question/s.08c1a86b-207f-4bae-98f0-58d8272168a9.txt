@@ -1,0 +1,28 @@
+version: 3.1.1
+server-time: 2020-11-05-14-55
+cgi: survey_code 
+ip: 61.149.219.90
+country: CN, China
+hostname: 
+user_agent: mozilla/5.0 (macintosh; intel mac os x 10_14_6) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.111 safari/537.36
+screen_width: 1280
+screen_height: 800
+html_width: 1191
+html_height: 6574
+user_time: Thu, 05 Nov 2020 13:55:31 GMT
+T: 151324
+l: AID_instruction
+stime: 2020-11-05-14-55
+T: 29919
+t: textline
+a: AZ0405
+l: age_gender
+stime: 2020-11-05-14-56
+T: 7429
+t: textline
+a: 20
+a: female
+l: notification
+stime: 2020-11-05-14-56
+T: 22605
+t: info

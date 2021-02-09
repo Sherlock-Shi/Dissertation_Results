@@ -1,0 +1,27 @@
+version: 3.1.1
+server-time: 2020-11-02-03-16
+ip: 210.121.187.8
+country: KR, Korea, Republic of
+hostname: 
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/86.0.4240.111 safari/537.36 edg/86.0.622.56
+screen_width: 1920
+screen_height: 1080
+html_width: 1522
+html_height: 2722
+user_time: Mon, 02 Nov 2020 02:16:44 GMT
+T: 4820
+l: AID_instruction
+stime: 2020-11-02-03-16
+T: 1722
+t: textline
+a: S
+l: age_gender
+stime: 2020-11-02-03-16
+T: 2326
+t: textline
+a: 18
+a: S
+l: notification
+stime: 2020-11-02-03-16
+T: 3768
+t: info
